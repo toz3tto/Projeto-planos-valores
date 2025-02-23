@@ -1,0 +1,122 @@
+/* Estilização geral da página */
+body {
+    background-color: #1a1b1c; /* Cor de fundo escura */
+    color: white; /* Texto em branco para contraste */
+    width: 90%; /* Largura ajustável */
+    max-width: 960px; /* Largura máxima */
+    margin: 0 auto; /* Centralização */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Estilização do título principal */
+.main-title {
+    font-size: 62px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 46px 0;
+}
+
+/* Cabeçalho */
+.header {
+    display: flex; /* Layout flexível */
+    background-color: #0505080a; /* Cor de fundo com transparência */
+    padding: 16px;
+    justify-content: space-between; /* Distribuição dos itens */
+}
+
+/* Logotipo do cabeçalho */
+.header__logo {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-left: 16px;
+    justify-content: center;
+    letter-spacing: 2px;
+}
+
+/* Lista de navegação */
+.ul__class {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    gap: 16px;
+}
+
+/* Links da navegação */
+.ul__class a {
+    color: white;
+    text-decoration: none;
+    padding: 14px;
+    border-radius: 6px;
+}
+
+/* Efeito hover nos links */
+.header__nav a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo para o link ativo */
+a.header__nav--active {
+    background-color: #cbe300;
+    color: #0c1014;
+    pointer-events: none;
+}
+
+/* Seção de planos */
+.pricing {
+    display: flex;
+    gap: 16px;
+}
+
+/* Cartões de planos */
+.pricing-plan {
+    flex: 1;
+    background-color: #1f262c;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 5px 15px -6px black;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Título dos planos */
+.class-plan__title {
+    text-transform: uppercase;
+    border-bottom: 2px solid #cbe300;
+    margin-top: 0;
+    padding-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* Lista de recursos dos planos */
+.pricing-plan__features {
+    margin: 0 0 35px;
+    color: #b5b5b5;
+    padding-left: 16px;
+    line-height: 1.8;
+    flex-grow: 1;
+}
+
+/* Marcadores de lista */
+.pricing-plan__features li::marker {
+    color: #cbe300;
+}
+
+/* Botão de chamada para ação */
+.pricing-plan__cta {
+    text-decoration: none;
+    color: black;
+    background-color: #cbe300;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 10px;
+    text-align: center;
+}
+
+/* Efeito hover no botão */
+.pricing-plan__cta:hover {
+    outline: 2px solid #cbe300;
+    background-color: transparent;
+    color: white;
+}

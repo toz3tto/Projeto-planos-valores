@@ -1,0 +1,74 @@
+<!-- Definição do tipo de documento HTML -->
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <!-- Configuração de caracteres para suportar acentuação -->
+    <meta charset="UTF-8">
+    <!-- Título da página exibido na aba do navegador -->
+    <title>Cartões de preço</title>
+    <!-- Link para o arquivo de estilização externa -->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <!-- Cabeçalho da página -->
+    <header class="header">
+        <!-- Logotipo do site -->
+        <div class="header__logo">Server Br</div>
+        <!-- Navegação principal -->
+        <nav class="header__nav">
+            <ul class="ul__class">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="header__nav--active">Planos</a></li>
+                <li><a href="#">Suporte</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Título principal da página -->
+    <h1 class="main-title">Escolha o seu plano</h1>
+    
+    <!-- Seção contendo os planos de preços -->
+    <section class="pricing">
+
+        <!-- Cartão do plano Essencial -->
+        <div class="pricing-plan">
+            <h2 class="class-plan__title">Essencial</h2>
+            <p><span class="pricing-plan__price">R$ 3.95</span>/mês</p>
+            <ul class="pricing-plan__features">
+                <li>1 Website</li>
+                <li>1 GB de Armazenamento</li>
+                <li>10 GB de Transferência</li>
+            </ul>
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+        </div>
+
+        <!-- Cartão do plano Premium -->
+        <div class="pricing-plan">
+            <h2 class="class-plan__title">Premium</h2>
+            <p><span class="pricing-plan__price">R$ 7.95</span>/mês</p>
+            <ul class="pricing-plan__features">
+                <li>5 Websites</li>
+                <li>3 GB de Armazenamento</li>
+                <li>Transferência ilimitada</li>
+                <li>10 horas de suporte mensais</li>
+            </ul>
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+        </div>
+
+        <!-- Cartão do plano Gold -->
+        <div class="pricing-plan">
+            <h2 class="class-plan__title">Gold</h2>
+            <p><span class="pricing-plan__price">R$ 12.95</span>/mês</p>
+            <ul class="pricing-plan__features">
+                <li>10 Websites</li>
+                <li>30 GB de Armazenamento</li>
+                <li>Transferência ilimitada</li>
+                <li>30 horas de suporte mensais</li>
+                <li>Email personalizado</li>
+            </ul>
+            <a href="#" class="pricing-plan__cta">Assine Já</a>
+        </div>
+    </section>
+</body>
+</html>
