@@ -1,5 +1,9 @@
 # 📌 Documentação do Projeto: Cartões de Preço
 
+🎥 Vídeo DemonstrativoAdicione aqui um link para um vídeo demonstrativo do projeto.
+
+https://github.com/user-attachments/assets/7fe7ef92-7cdc-4e9e-b35e-decdcd1bf335
+
 ## 📄 Sobre o Projeto
 Este projeto consiste em uma página web responsiva que apresenta diferentes planos de serviços em um formato de cartões de preço. Ele foi desenvolvido como parte de um curso e utiliza **HTML** e **CSS** para a estrutura e estilização.
 
