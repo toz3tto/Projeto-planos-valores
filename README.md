@@ -1,6 +1,6 @@
 # 📌 Documentação do Projeto: Cartões de Preço
 
-🎥 Vídeo DemonstrativoAdicione aqui um link para um vídeo demonstrativo do projeto.
+🎥 Vídeo Demonstrativo
 
 https://github.com/user-attachments/assets/7fe7ef92-7cdc-4e9e-b35e-decdcd1bf335
 
